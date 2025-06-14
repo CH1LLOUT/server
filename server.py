@@ -693,7 +693,7 @@ class FastTokenMonitor:
             self.handle_client,
             SERVER_HOST,
             SERVER_PORT,
-            ping_interval=30,
+            ping_interval=None,
             ping_timeout=10
         )
         print(f"🌐 WebSocket сервер запущен на {SERVER_HOST}:{SERVER_PORT}")
